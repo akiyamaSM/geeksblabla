@@ -1,17 +1,21 @@
 <template>
-  <section class="bg-black h-screen">
+  <section class="bg-black min-screen">
     <div>
       <Navigation></Navigation>
+
+      <GeekFooter></GeekFooter>
     </div>
   </section>
 </template>
 
 <script>
 import Navigation from '../components/Navigation';
+import GeekFooter from '../components/GeekFooter';
 
 export default {
   components: {
-    Navigation
+    Navigation,
+    GeekFooter
   }
 }
 </script>

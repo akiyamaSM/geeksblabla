@@ -46,7 +46,7 @@ View the full documentation at https://tailwindcss.com.
 let colors = {
   'geeks-blue': '#1392DC',
   'geeks-blue-light': '#98C3E1',
-  'geeks-violet': '#BA12BE',
+  'geeks-violet': '#d31387',
   'geeks-purple': '#E099E7',
   'geeks-white': '#FBFBFB',
   'transparent': 'transparent',

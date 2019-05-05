@@ -16,8 +16,9 @@
     "@nuxtjs/axios": "^5.3.6"
   },
   "devDependencies": {
-    "nodemon": "^1.18.9",
     "autoprefixer": "^8.6.4",
+    "nodemon": "^1.18.9",
+    "purgecss-webpack-plugin": "^0.20.1",
     "tailwindcss": "^0.7.0"
   }
 }

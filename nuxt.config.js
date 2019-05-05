@@ -1,4 +1,5 @@
 import pkg from './package'
+import PurgecssPlugin from 'purgecss-webpack-plugin'
 
 export default {
   mode: 'universal',
