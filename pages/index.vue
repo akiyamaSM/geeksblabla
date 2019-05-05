@@ -1,21 +1,13 @@
 <template>
-  <section class="bg-black min-screen">
-    <div>
-      <Navigation></Navigation>
-
-      <GeekFooter></GeekFooter>
-    </div>
-  </section>
+  <div>
+      Test
+  </div>
 </template>
 
 <script>
-import Navigation from '../components/Navigation';
-import GeekFooter from '../components/GeekFooter';
 
 export default {
   components: {
-    Navigation,
-    GeekFooter
   }
 }
 </script>
