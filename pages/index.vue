@@ -1,14 +1,17 @@
 <template>
-  <section class="container">
+  <section class="bg-black h-screen">
     <div>
+      <Navigation></Navigation>
     </div>
   </section>
 </template>
 
 <script>
+import Navigation from '../components/Navigation';
+
 export default {
   components: {
-
+    Navigation
   }
 }
 </script>
