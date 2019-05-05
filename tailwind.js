@@ -44,6 +44,11 @@ View the full documentation at https://tailwindcss.com.
 */
 
 let colors = {
+  'geeks-blue': '#1392DC',
+  'geeks-blue-light': '#98C3E1',
+  'geeks-violet': '#BA12BE',
+  'geeks-purple': '#E099E7',
+  'geeks-white': '#FBFBFB',
   'transparent': 'transparent',
 
   'black': '#22292f',
@@ -80,22 +85,6 @@ let colors = {
   'yellow-lighter': '#fff9c2',
   'yellow-lightest': '#fcfbeb',
 
-  'green-darkest': '#0f2f21',
-  'green-darker': '#1a4731',
-  'green-dark': '#1f9d55',
-  'green': '#38c172',
-  'green-light': '#51d88a',
-  'green-lighter': '#a2f5bf',
-  'green-lightest': '#e3fcec',
-
-  'teal-darkest': '#0d3331',
-  'teal-darker': '#20504f',
-  'teal-dark': '#38a89d',
-  'teal': '#4dc0b5',
-  'teal-light': '#64d5ca',
-  'teal-lighter': '#a0f0ed',
-  'teal-lightest': '#e8fffe',
-
   'blue-darkest': '#12283a',
   'blue-darker': '#1c3d5a',
   'blue-dark': '#2779bd',
@@ -119,14 +108,6 @@ let colors = {
   'purple-light': '#a779e9',
   'purple-lighter': '#d6bbfc',
   'purple-lightest': '#f3ebff',
-
-  'pink-darkest': '#451225',
-  'pink-darker': '#6f213f',
-  'pink-dark': '#eb5286',
-  'pink': '#f66d9b',
-  'pink-light': '#fa7ea8',
-  'pink-lighter': '#ffbbca',
-  'pink-lightest': '#ffebef',
 }
 
 module.exports = {
