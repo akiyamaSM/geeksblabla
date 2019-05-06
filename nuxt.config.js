@@ -1,6 +1,6 @@
 import pkg from './package'
 import env from 'dotenv'
-
+import axios from 'axios'
 export default {
   mode: 'universal',
   env: env.config().parsed,
@@ -63,5 +63,19 @@ export default {
     */
     extend(config, ctx) {
     }
-  }
+  },
+  generate:{
+      routes: function () {
+          return axios.get( `https://api.storyblok.com/v1/cdn/stories?starts_with=blablas&token=${env.config().parsed.token_key}&cv= ` + Math.floor(Date.now() / 1e3))
+              .then((res) => {
+                  const myBlablas = res.data.stories.map( blabla => blabla.full_slug );
+                  return [
+                      '/',
+                      '/about',
+                      '/blablas',
+                      ... myBlablas
+                  ]
+              });
+      }
+  },
 }
