@@ -1,9 +1,9 @@
 import pkg from './package'
-import PurgecssPlugin from 'purgecss-webpack-plugin'
+import env from 'dotenv'
 
 export default {
   mode: 'universal',
-
+  env: env.config().parsed,
   /*
   ** Headers of the page
   */
