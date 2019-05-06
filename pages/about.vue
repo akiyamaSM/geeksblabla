@@ -8,7 +8,7 @@
         <p>We Invite knowledgable and interesting people who are not always known to the public so that they share with us their experience.</p>
         <p>We talk about the hottest new topics and explain it to the community in a way that is simple and approachable.</p>
       </div>
-      <a class="p-4 px-6 rounded-full border-solid border-geeks-violet text-geeks-violet border-2 hover:text-white hover:bg-geeks-violet self-start" href="/blablas">See All Blablas</a>
+      <a class="geek-button self-start" href="/blablas">See All Blablas</a>
     </div>
   </div>
 </template>

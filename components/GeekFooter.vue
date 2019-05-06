@@ -7,11 +7,11 @@
     <div>
       <h2 class="mb-1 text-sm">May 11, 2019</h2>
       <p class="text-sm text-grey">
-        The streaming will be on <a href="#" class="text-geeks-violet hover:text-geeks-violet">DevC Casablanca Facebook Group</a>
+        The streaming will be on <a href="https://www.facebook.com/groups/DevC.Casablanca/" class="text-geeks-violet hover:text-geeks-violet">DevC Casablanca Facebook Group</a>
       </p>
     </div>
     <div>
-      <a href="#" class="p-4 px-6 rounded-full border-solid border-geeks-violet text-geeks-violet border-2 hover:text-white hover:bg-geeks-violet">
+      <a href="https://www.facebook.com/groups/DevC.Casablanca/" class="geek-button">
         Add to Calendar
       </a>
     </div>

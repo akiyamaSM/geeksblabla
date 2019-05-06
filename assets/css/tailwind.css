@@ -20,6 +20,13 @@
  */
 @tailwind components;
 
+.geek-button{
+    @apply .p-4 px-6 .rounded-full .border-solid .border-geeks-violet .text-geeks-violet border-2;
+}
+
+.geek-button:hover{
+    @apply .text-white .bg-geeks-violet;
+}
 /**
  * Here you would add any of your custom component classes; stuff that you'd
  * want loaded *before* the utilities so that the utilities could still
