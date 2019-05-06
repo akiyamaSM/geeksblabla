@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="flex-1 container mx-auto text-white">
       Test
   </div>
 </template>

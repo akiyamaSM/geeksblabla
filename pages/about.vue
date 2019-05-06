@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto flex items-center font-sans">
+  <div class="container mx-auto flex items-center font-sans flex-1">
     <img class="mr-12" src="https://geeksblabla.com/static/8af9cd56d5bac8799dbbce76f196d132/3fa08/about.png" alt="Community">
     <div class="flex flex-col">
       <h1 class="my-12 text-white font-bold text-4xl">We Believe Community Matters</h1>

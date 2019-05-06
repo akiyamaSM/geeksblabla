@@ -1,10 +1,8 @@
 <template>
-  <section class="bg-black min-screen">
-    <div>
-      <Navigation></Navigation>
-        <nuxt />
-      <GeekFooter></GeekFooter>
-    </div>
+  <section class="bg-black min-h-screen flex flex-col">
+    <Navigation></Navigation>
+      <nuxt />
+    <GeekFooter></GeekFooter>
   </section>
 </template>
 
