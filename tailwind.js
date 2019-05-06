@@ -513,6 +513,7 @@ module.exports = {
     '32': '8rem',
     '48': '12rem',
     '64': '16rem',
+    '128': '32rem',
     'full': '100%',
     'screen': '100vh'
   },
@@ -867,7 +868,7 @@ module.exports = {
     minHeight: ['responsive'],
     minWidth: ['responsive'],
     negativeMargin: ['responsive'],
-    opacity: ['responsive'],
+    opacity: ['responsive', 'hover'],
     outline: ['focus'],
     overflow: ['responsive'],
     padding: ['responsive'],
