@@ -1,5 +1,5 @@
 <template>
-  <div class="sm:text-center md:flex md:justify-between md:items-center mx-auto md:container py-5 text-grey-lighter text-sm">
+  <div class="sm:text-center md:flex md:justify-between md:items-center mx-auto container py-5 text-grey-lighter text-sm">
     <div class="my-4">
       <h4 class="text-geeks-violet mb-1 font-medium">Next episode</h4>
       <h1 class="text-lg font-medium">Open source licenses & standards</h1>
