@@ -25,4 +25,15 @@
   a:hover{
     @apply .text-grey-light;
   }
+
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    #episode{
+      order: 1;
+    }
+
+    #episodes{
+      order: 2;
+    }
+  }
 </style>
