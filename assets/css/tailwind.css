@@ -21,7 +21,7 @@
 @tailwind components;
 
 .geek-button{
-    @apply .p-4 px-6 .rounded-full .border-solid .border-geeks-violet .text-geeks-violet border-2;
+    @apply .p-4 .px-6 .rounded-full .border-solid .border-geeks-violet .text-geeks-violet .border-2 .inline-block;
 }
 
 .geek-button:hover{

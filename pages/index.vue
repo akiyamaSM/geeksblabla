@@ -1,13 +1,13 @@
 <template>
   <div class="flex-1 container mx-auto text-white flex items-center justify-center">
-      <div class="flex flex-col w-2/5">
+      <div class="hidden md:block md:flex flex-col md:w-2/5">
           <h1 class="text-5xl leading-normal mb-2">Enjoy Top Tech
               Topics In Darija
               With GeeksBlabla
           </h1>
           <a href="/blablas" class="geek-button self-start">See All Blablas</a>
       </div>
-      <div class="w-3/5">
+      <div class="md:w-3/5">
           <FacebookPlayer :blabla="myBlabla"></FacebookPlayer>
       </div>
   </div>
